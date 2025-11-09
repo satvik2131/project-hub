@@ -10,23 +10,43 @@ logs/
 
 # Next.js
 # Next.js build output
+# Node
+node_modules/
+
+# Next.js build output
 .next/
 out/
 
-# Environment - ignore local env files
+# Local env files (keep .env.example in repo)
 .env.local
 .env.*.local
+!.env.example
 
-# OS & editors
-.DS_Store
+# TypeScript
+*.tsbuildinfo
 
-# Keep logs out of git
+# Logs
 npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 *.log
 
-# Node modules
-node_modules/
+# Coverage
+coverage/
+*.lcov
+
+# Editor directories and OS files
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Misc (keys, certs)
+*.pem
+*.key
 
 # dist
 dist/
