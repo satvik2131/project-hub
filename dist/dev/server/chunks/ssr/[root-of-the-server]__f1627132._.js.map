@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/satvi/Downloads/Projects/assignment/project-board/app/page.tsx"],"sourcesContent":["export function generateStaticParams() {\r\n  return [{ slug: [\"\"] }];\r\n}\r\n\r\nexport default function Page() {\r\n  return \"hell\";\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAO,SAAS;IACd,OAAO;QAAC;YAAE,MAAM;gBAAC;aAAG;QAAC;KAAE;AACzB;AAEe,SAAS;IACtB,OAAO;AACT","debugId":null}}]
+}
